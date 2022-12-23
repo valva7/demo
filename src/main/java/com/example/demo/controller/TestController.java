@@ -14,7 +14,7 @@ public class TestController {
 
     @GetMapping
     public String testController(){
-        return "Hello World!";
+        return "Hello World! ";
     }
 
     @GetMapping("/testGetMapping") // http://localhost:8080/test/testGetMapping
